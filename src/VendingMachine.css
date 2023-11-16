@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(243, 183, 17);
+}
+.VendingMachine{
+    text-align: center;
+    background-image: url("./resources/vendingmachine.jpeg");
+
+}
+.VendingMachine h1{
+    padding-top: 1rem;
+    color: rgb(0, 0, 0);
+    font-size: xxx-large;
+}
+.Introduction{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid black;
+    height: 10rem;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    font-size: xx-large;
+    width: 30rem;
+    font-weight: bold;
+    color: white;
+    font-family:fantasy;
+    padding: 3rem;
+    background-color: rgba(150, 150, 150, 0.5);
+}
+.Menu{
+    border: 1px solid black;
+    
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 2%;
+    font-size: xx-large;
+    width: 20rem;
+    font-weight: bold;
+    color: white;
+    font-family:fantasy;
+    padding: 3rem;
+    background-color: rgba(150, 150, 150, 0.5);
+}
+
+.sections{
+    
+    display: flex;
+    margin-top: 10%;
+    justify-content:space-between;
+}

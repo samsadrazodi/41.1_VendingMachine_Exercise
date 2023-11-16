@@ -1,0 +1,80 @@
+.IceCream{
+    padding-top: 4rem ;
+    background-color: rgb(248, 202, 239);
+    color: white;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+.IceCream h1{
+    color:rgb(240, 8, 186);
+    font-size: xxx-large;
+}
+
+.image{
+    display: flex;
+    /* border: 1px solid black; */
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    flex-wrap: wrap;
+    background: transparent;
+    
+
+}
+.image-div{
+    display: flex;
+    margin-top: 5rem;
+    /* border: 1px solid blue; */
+    height: 70vh;
+    align-items: center;
+    flex-direction: row-reverse;
+    overflow: hidden;
+}
+.btn-div {
+    background-color: rgb(130, 130, 128,0.6);
+    border-radius: 7%;
+    padding: 6rem;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    border: 1px solid black;
+    cursor: pointer;
+    /* Add any other styles you want for the button */
+  }
+
+.back-btn{
+    margin-top: 1rem;
+    border-radius: 10%;
+    padding: 0.5rem;
+    color: white;
+    background-color: rgba(95, 95, 97, 0.6);
+
+}
+.back-btn:hover{
+    margin-top: 1rem;
+    border-radius: 10%;
+    padding: 0.5rem;
+    color: rgb(0, 0, 0);
+    background-color: rgb(95, 95, 97);
+
+}
+.add-btn{
+    margin-top: 1rem;
+    border-radius: 10%;
+    padding: 0.5rem;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    background-color: rgba(237, 0, 229, 0.994);
+}
+.add-btn:hover{
+    margin-top: 1rem;
+    border-radius: 10%;
+    padding: 0.5rem;
+    color: rgb(244, 240, 240);
+    font-weight: bold;
+    background-color:  rgba(237, 0, 229, 0.994);
+}
